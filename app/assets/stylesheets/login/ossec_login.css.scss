@@ -1,0 +1,73 @@
+html {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: black;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+img {
+	width: 300px;
+}
+
+
+div#login-form {
+	margin: auto;
+	width: 500px;
+	border-top: 1px solid #0099CC;
+}
+
+div#inter {
+	margin: auto;
+	margin-top: 10px;
+	width: 400px;
+	border-top: 1px dashed #0099CC;
+}
+
+form {
+	margin-top: 10px;
+	margin-bottom: 100px;
+	border-top: 1px solid #0099CC;
+	padding-top: 30px;
+}
+
+label {
+	font-family: sans-serif;
+	color: white;
+	text-transform: uppercase;
+	margin-left: 50px;
+	text-align: right;
+	display: block;
+	width: 150px;
+	float: left;
+	padding-top: 3px;
+}
+
+input {
+	width: 200px;
+	border: 1px dashed #0099CC;
+	margin-bottom: 10px;
+}
+
+input[type=submit] {
+	margin-top: 15px;
+	width: 100px;
+	background-color: #0099CC;
+	border: 1px solid #AAAAAA;
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+div#error {
+	color: red;
+	font-family: sans-serif;
+	margin: 10px;
+}
