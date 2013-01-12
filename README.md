@@ -1,4 +1,3 @@
-hist-ui
+HIDS-UI
 =======
 
-HIDS UI
