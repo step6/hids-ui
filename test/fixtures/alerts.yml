@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  server_id: 1
+  rule_id: 1
+  timestamp: 1
+  location_id: 1
+  src_ip: 1
+  dst_ip: 1
+  src_port: 1
+  dst_port: 1
+  alertid: MyText
+
+two:
+  id: 1
+  server_id: 1
+  rule_id: 1
+  timestamp: 1
+  location_id: 1
+  src_ip: 1
+  dst_ip: 1
+  src_port: 1
+  dst_port: 1
+  alertid: MyText
