@@ -1,5 +1,6 @@
 <h1>Listing Alerts</h1>
 
+<div class="pagination"><%= page_entries_info @alerts %></div>
 <%= paginate @alerts %>
 
 <ul id="alerts">
@@ -16,8 +17,11 @@
 					<div><%= alert.rule.level %></div>
 				</div>
 			</div>
-			<div class="alert_time"><%= alert.timestamp %></div>
+			<div class="alert_time"><%= time alert.timestamp %></div>
 			<div class="alert_description"><%= alert.rule.description %></div>
 		</li>
 	<% end %>
 </ul>
+
+<%= paginate @alerts %>
+<div class="pagination"><%= page_entries_info @alerts %></div>

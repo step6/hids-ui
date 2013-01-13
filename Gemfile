@@ -28,6 +28,9 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # Pagination
 gem 'kaminari'
 
+# Preferences / Settings
+gem 'rails-settings-cached'
+
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 

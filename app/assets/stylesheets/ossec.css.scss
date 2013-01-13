@@ -134,15 +134,17 @@ body {
 	width: 95%;
 	margin: auto;
 	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: courier;
+	font-size: 9pt;
+	color: #0099CC;
 
 	a, span {
 		padding: 3px;
 		border: 1px solid #0099CC;
 		margin-left: 2px;
-		color: #0099CC;
 		text-decoration: none;
-		font-family: courier;
-		font-size: 9pt;
+		color: #0099CC;
 	}
 
 	a:hover {
