@@ -1,6 +1,6 @@
 class Alert < ActiveRecord::Base
-	set_table_name "alert"
-	set_primary_key "id"
+	self.table_name = "alert"
+	self.primary_key = "id"
 
 	belongs_to :server
 	belongs_to :rule, :class_name => "Signature", :foreign_key => "rule_id"

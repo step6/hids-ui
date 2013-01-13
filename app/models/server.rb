@@ -1,4 +1,4 @@
 class Server < ActiveRecord::Base
-	set_table_name "server"
-	set_primary_key "id"
+	self.table_name = "server"
+	self.primary_key = "id"
 end
