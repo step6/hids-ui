@@ -1,0 +1,19 @@
+<h1>Dashboard</h1>
+
+<div class="gridster">
+<ul>
+</ul>
+</div>
+
+<%= javascript_tag do %>
+	window.widgets = new Array();
+	<%
+		i = 0
+		@widgets.each do |widget|
+	%>
+		window.widgets[<%= i %>] = '<%= widget %>'
+	<%
+			i = i + 1
+		end
+	%>
+<% end %>

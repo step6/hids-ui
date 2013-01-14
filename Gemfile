@@ -18,6 +18,9 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+  # Dashboards
+  gem 'gridster-rails'
 end
 
 gem 'jquery-rails'

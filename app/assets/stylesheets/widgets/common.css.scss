@@ -1,0 +1,45 @@
+#main li.widget {
+	h1 {
+		font-size: 12pt;
+		color: #0099CC;
+		margin: 0;
+		text-align: center;
+	}
+
+	ul.top-alerts {
+		padding: 5px;
+
+		li.head {
+			color: #666666;
+			font-weight: bold;
+			font-size: 10pt;
+			border-bottom: 2px solid #333333;
+
+			div.description {
+				color: #666666;
+			}
+		}
+
+		div {
+			padding-top: 2px;
+			padding-bottom: 2px;
+		}
+
+		div.count {
+			width: 50px;
+			text-align: center;
+			color: #666666;
+			font-size: 10pt;
+			float: left;
+			clear: left;
+		}
+
+		div.description {
+			color: #333333;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			width: 390px;
+			white-space: nowrap;
+		}
+	}
+}

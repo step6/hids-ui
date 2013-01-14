@@ -1,0 +1,18 @@
+<li class="widget">
+	<%= stylesheet_link_tag "widgets/common" %>
+
+	<h1>Top Alerts</h1>
+
+	<ul class="top-alerts">
+		<li class="head">
+			<div class="count">Count</div>
+			<div class="description">Alert</div>
+		</li>
+		<% @alerts.each do |alert| %>
+			<li>
+				<div class="count"><%= alert.alert_count %></div>
+				<div class="description"><%= alert.description %></div>
+			</li>
+		<% end %>
+	</ul>
+</li>
